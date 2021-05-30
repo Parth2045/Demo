@@ -1,0 +1,686 @@
+html,body {
+    min-height: 100%;
+    margin: 0;
+    font-family: 'Sofia Pro Regular', sans-serif;
+    background: #ffffff;
+    height: 100%;
+}
+body {
+    /*display: block !important;*/
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sofia Pro Regular', sans-serif;
+    font-size: 16px;
+    color: #274089;
+    background-color: #ffffff;
+    height: 100%;
+}
+a {
+    text-decoration: none !important;
+    color: #0094FE;
+}
+a:hover {
+    text-decoration: none !important;
+    color: #FFCD50;
+}
+
+ul {
+    padding: 0;
+}
+ul li {
+  list-style: none;
+}
+p {
+    font-size: 14px;
+}
+
+.form-group.has-error {
+    margin-bottom: 1.9rem;
+}
+.form-group.has-error .error {
+    color: #FF0000;
+    line-height: 1.2rem;
+    font-size: .85rem;
+    padding: 0 8px;
+}
+.form-group.has-error .phonenumberblock .error {
+    margin-top: 4px;
+}
+.expiration-custom-error.dt-sc-error-box {
+    padding: 0 8px;
+}
+.form-group.has-error input,
+.form-group.has-error.custom-input .phonenumberblock {
+    border-color: #f77;
+}
+
+.row10 {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.col10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*-----------------------------------------*/
+/*         COLOR CLASSES STARTS            */
+/*-----------------------------------------*/
+.white {
+    color: #ffffff !important;
+}
+.black {
+    color: #000 !important;
+}
+.blue {
+    color: #1F418E !important;
+}
+.theme-blue {
+    color: #274089 !important;
+}
+.theme-dodgerblue {
+    color: #0045a4 !important;
+}
+.theme-red {
+    color: #F56565 !important;
+}
+.bg-white {
+    background-color: #F6FAFD;
+}
+.bg-light-gray {
+    background-color: #F6FAFD;
+}
+/*-----------------------------------------*/
+/*          COLOR CLASSES ENDS             */
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*                BUTTON STARTS            */
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*                BUTTON STARTS            */
+/*-----------------------------------------*/
+
+.btn {
+    font-size: 18px;
+    border-radius: 30px;
+}
+.btn-small {
+    padding: 8px 20px;
+}
+
+.btn-blue {
+    background-color: #274089;
+    border: 1px solid #274089;
+    color: #ffffff;
+}
+.btn-blue:hover {
+    background-color: #ffffff;
+    color: #274089;
+}
+.btn-red {
+    background-color: #F56565;
+    border: 1px solid #F56565;
+    color: #ffffff;
+}
+.btn-red:hover {
+    background-color: #ffffff;
+    color: #F56565;
+}
+.btn-blue-border {
+    background-color: #ffffff;
+    border: 1px solid #D8DEF1;
+    color: #274089;
+}
+.btn-blue-border:hover {
+    background-color: #274089;
+    color: #ffffff;
+}
+.btn-light-blue {
+    background-color: #3A52A5;
+    border: 1px solid #3A52A5;
+    color: #ffffff;
+}
+.btn-light-blue:hover {
+    background-color: #ffffff;
+    color: #3A52A5;
+}
+.btn-black {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #ffffff;
+}
+.btn-black:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+.btn-orange {
+    background-color: #DE4A39;
+    border: 1px solid #DE4A39;
+    color: #ffffff;
+}
+.btn-orange:hover {
+    background-color: #ffffff;
+    color: #DE4A39;
+}
+.signin-form .btn {
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+@media(max-width: 767px){
+    .btn {
+        font-size: 16px;
+    }
+}
+@media (max-width: 575px) {
+    .btn {
+        font-size: 14px;
+    }
+    .btn-small {
+        padding: 8px 15px;
+    }
+}
+/*-----------------------------------------*/
+/*                BUTTON ENDS              */
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+/*          COMMON CLASSES STARTS          */
+/*-----------------------------------------*/
+.mb08 { margin-bottom: 8px;}
+.mb30 { margin-bottom: 30px;}
+.h05 { height: 5px;}
+.h10 { height: 10px;}
+.h15 { height: 15px;}
+.h20 { height: 20px;}
+.h30 { height: 30px;}
+.h40 { height: 40px;}
+.h50 { height: 50px;}
+.h60 { height: 60px;}
+.h80 { height: 80px;}
+.h100 { height: 100px;}
+
+.font-weight-100 {
+    font-weight: 100 !important;
+}
+.font-weight-500 {
+    font-weight: 500 !important;
+}
+.font-weight-600 {
+    font-weight: 600 !important;
+}
+
+
+.box-shadow {
+    box-shadow: -16px 22px 20px -1px rgba(0,0,0,0.2)
+}
+.section-padding {
+    padding: 90px 0;
+}
+.info-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+.paragraph {
+    font-size: 16px;
+    line-height: 28px;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.overflow-auto {
+    overflow: auto;
+}
+.pbottom {
+    padding-bottom: 6rem;
+}
+@media(min-width: 576px){
+    .container {
+        max-width: 90%;
+    }
+}
+@media(min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media(max-width: 1500px){
+
+}
+@media(max-width: 1199px){
+    .lg-order-inherit {
+        order: inherit !important;
+    }
+}
+@media(max-width: 991px){
+    .md-order-inherit {
+        order: inherit !important;
+    }
+
+}
+@media(max-width: 767px) {
+    .xs-d-block {
+        display: block !important;
+    }
+    .xs-d-none {
+        display: none !important;
+    }
+    .xs-p-0 {
+        padding: 0 !important;
+    }
+
+}
+/*-----------------------------------------*/
+/*          COMMON CLASSES STARTS          */
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+/*          CHECKBOX CSS STARTS            */
+/*-----------------------------------------*/
+
+.checkbox-box{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.checkbox-box input[type="checkbox"] { display:none; }
+.checkbox-box label {
+  font-weight: normal;
+  cursor:pointer;
+}
+
+
+.checkbox-box input[type="checkbox"]:checked ~ label span::before {
+    content: "";
+    font-family: fontawesome;
+    font-size: 22px;
+    left: 0px;
+    position: absolute;
+    top: -9px;
+    color: #1D2E66;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.checkbox-box input[type="checkbox"] ~ label span {
+    border: 1px solid #000;
+    cursor: pointer;
+    display: inline-block;
+    height: 17px;
+    margin: -1px 15px 0 0;
+    position: relative;
+    vertical-align: middle;
+    width: 17px;
+    color: #1D2E66 ;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.075);
+}
+.checkbox-box input[type="checkbox"]:checked ~ label span{
+}
+.disabled-label {
+    top: -22px !important;
+    left: 8px !important;
+}
+.custom-input input:disabled {
+    cursor: not-allowed;
+}
+@media(max-width: 1199px){
+    .checkbox-box input[type="checkbox"] ~ label span {
+        margin: -1px 2px 0 0;
+    }
+}
+
+/*-----------------------------------------*/
+/*           CHECKBOX CSS ENDS             */
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+/*       BUTTON CHECKBOX CSS START         */
+/*-----------------------------------------*/
+.btncheckbox {
+    padding: 0 12px;
+    display: inline-block;
+}
+.btncheckbox .checkbox-box input[type="checkbox"] ~ label span {
+    width: 100%;
+    height: 38px;
+    border-radius: 20px;
+    border: 1px solid #1D2E66;
+    margin: 0;
+    padding: 5px 25px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btncheckbox .checkbox-box input[type="checkbox"]:checked ~ label span::before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 18px;
+    /*-webkit-text-stroke: 1px #E54C3C;
+    color: #E54C3C;*/
+    -webkit-text-stroke: 1px #1D2E66;
+    color: #fff;
+    font-size: 16px;
+}
+.btncheckbox .checkbox-box input[type="checkbox"]:checked ~ label span{
+    /*background-color: #FFF;
+    border: 1px solid #E54C3C !important;
+    color: #E54C3C !important;*/
+    background-color: #1D2E66;
+    border: 1px solid #1D2E66 !important;
+    color: #fff !important;
+    font-weight: normal;
+}
+
+/*-----------------------------------------*/
+/*       BUTTON CHECKBOX CSS ENDS          */
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+/*          RADIO BUTTON CSS STARTS        */
+/*-----------------------------------------*/
+/* The container */
+.custom-radio label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #000;
+}
+.cart-main-container .cart-radio-block .custom-radio label {
+    font-weight: 600;
+    color: #474F5A;
+}
+/* Hide the browser's default radio button */
+.custom-radio label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.custom-radio .checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent !important;
+    border-radius: 50%;
+    border: 1px solid #CDD4E7;
+}
+
+/* On mouse-over, add a grey background color */
+.custom-radio label:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.custom-radio label input:checked ~ .checkmark {
+  background-color: #274089 !important;
+}
+
+.cart-main-container .cart-radio-block .custom-radio label input:checked ~ .checkmark {
+    background-color: #00D3D4 !important;
+    border: 1px solid #00D3D4;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.custom-radio label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.custom-radio label .checkmark:after {
+    top: 8px;
+    left: 9px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+}
+
+.cart-main-container .cart-radio-block .custom-radio label .checkmark:after {
+    top: 7px;
+    left: 7px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+}
+@media(max-width: 767px) {
+    .custom-radio label {
+        font-size: 14px;
+        padding-left: 26px;
+    }
+    .custom-radio .checkmark {
+        height: 20px;
+        width: 20px;
+    }
+    .custom-radio label .checkmark:after {
+        top: 6px;
+        left: 6px;
+        width: 6px;
+        height: 6px;
+    }
+    .cart-main-container .cart-radio-block .custom-radio label .checkmark:after {
+        top: 6px;
+        left: 6px;
+        width: 6px;
+        height: 6px;
+    }
+}
+
+/*-----------------------------------------*/
+/*           RADIO BUTTON CSS ENDS         */
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+/*         ACCORDION CSS STARTS            */
+/*-----------------------------------------*/
+.card {
+    border: 1px solid transparent;
+}
+.card-header {
+    background-color: transparent;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 0;
+}
+.card-header .btn {
+    padding: 25px 35px 10px;
+    text-decoration: none !important;
+    position: relative;
+}
+.card-header .btn .fa {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    color: #4FCFD5;
+    -webkit-text-stroke: 1px #ffffff;
+    font-size: 20px;
+}
+.card-body {
+    padding: 10px 40px;
+}
+
+/*-----------------------------------------*/
+/*          ACCORDION CSS ENDS             */
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+/*           FORM ELEMENT STARTS           */
+/*-----------------------------------------*/
+
+.custom-input .input-field {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  line-height: 44px;
+}
+
+.custom-input label {
+
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 100%;
+  color: rgba(0,0,0,0.3);
+  transition: 0.2s all;
+  cursor: text;
+  font-size: 18px;
+  z-index: 0;
+}
+
+.custom-input input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: none;
+    color: #000;
+    line-height: initial;
+    z-index: 1;
+    position: relative;
+    background-color: transparent;
+}
+.custom-input input:-webkit-autofill,
+.custom-input input:-webkit-autofill:hover,
+.custom-input input:-webkit-autofill:focus,
+.custom-input input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.custom-input .phonenumberblock {
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #d3d3d3;
+}
+.custom-input .number,
+.custom-input .dialnumber {
+    display: inline-block;
+    width: 46px;
+    text-align: center;
+    border-bottom: none;
+}
+.custom-input .numberinput {
+    display: inline-block;
+    width: 298px;
+    border-bottom: none;
+}
+.custom-input input:invalid {
+  outline: 0;
+}
+
+.custom-input input:focus,
+.custom-input input:valid {
+  /*border-color: #00dd22;*/
+}
+
+.custom-input input:focus ~ label,
+.custom-input input:valid ~ label {
+  font-size: 18px;
+  top: -22px;
+  color: rgba(0,0,0,0.3);
+  z-index: 1;
+}
+.custom-input .form-control {
+    border: none;
+    border-bottom: 2px solid #d3d3d3;
+    background-color: transparent;
+    outline: none !important;
+    position: relative;
+    color: rgba(0,0,0,0.3);
+    font-size: 18px;
+    border-radius: none;
+    box-shadow: none !important;
+    padding: 7px;
+}
+@media(max-width: 991px){
+    .custom-input .numberinput {
+        width: 155px;
+    }
+}
+/*.custom-input .numberinput {
+    width: 155px;
+}*/
+@media(max-width: 767px){
+    .custom-input label {
+        font-size: 14px;
+    }
+    .custom-input .numberinput {
+        width: 80%;
+    }
+    .custom-input input {
+        padding: 10px 5px;
+        margin: 2px;
+    }
+    select.form-control:not([size]):not([multiple]) {
+        font-size: 15px;
+        padding: 0 7px;
+    }
+    .custom-input input:focus ~ label, .custom-input input:valid ~ label {
+        font-size: 14px;
+    }
+}
+@media(max-width: 575px){
+    .custom-input .numberinput {
+        width: 60%;
+    }
+}
+
+/*-----------------------------------------*/
+/*           FORM ELEMENT ENDS             */
+/*-----------------------------------------*/
+
+.test-ck {
+    height: 50px !important;
+    line-height: 44px !important;
+    /* .form-group { */
+        /* margin-bottom: 43px; */
+    /* } */
+
+}
+
+.test-ck2 {
+    margin-bottom: 3rem !important;
+}
+
+/* NEW LOADER CSS : 27-05 */
+.azure-loader-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3A52A5;
+}
+.loader-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    overflow: hidden;
+}
+.loader-tbl-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/* NEW LOADER CSS : 27-05 */
